@@ -3,7 +3,7 @@ import Image from "next/image";
 import logo from "@/assests/nextCommerceLogo.png"
 const Navbar = () => {
   return (
-    <Container className="border flex justify-between items-center">
+    <Container className="border flex justify-between items-center sticky top-0">
       <div>
         <Image src={logo} width={100} height={100} alt="logo" />
       </div>
