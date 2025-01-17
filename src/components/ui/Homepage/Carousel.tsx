@@ -17,6 +17,60 @@ export default CarouselHome;
 
 const data = [
   {
+    category: "Headset",
+    title: "Explore the latest iPhone 15 Pro Max.",
+    src: "https://i.ibb.co.com/2vYVrjH/White-Bold-World-Maritime-Day-Instagram-Story-1.png",
+    content: (
+      <div
+        key={"dummy-content-0"}
+        className="bg-[#F5F5F7] dark:bg-neutral-800 p-8 md:p-14 rounded-3xl mb-4"
+      >
+        <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto">
+          <span className="font-bold text-neutral-700 dark:text-neutral-200">
+            The future is here with the iPhone 15 Pro Max.
+          </span>{" "}
+          Experience the unmatched power of the iPhone 15 Pro Max with its
+          advanced A17 chip, a stunning 120Hz OLED display, and a professional
+          camera system built for innovation.
+        </p>
+        <Image
+          src="https://cellphonehub.co.uk/wp-content/uploads/2024/07/S24-Ultra.png"
+          alt="iPhone 15 Pro Max"
+          height="500"
+          width="500"
+          className="md:w-1/2 md:h-1/2 h-full w-full mx-auto object-contain"
+        />
+      </div>
+    ),
+  },
+  {
+    category: "Headset",
+    title: "Explore the latest iPhone 15 Pro Max.",
+    src: "https://i.ibb.co.com/8YKx9YQ/White-Bold-World-Maritime-Day-Instagram-Story.png",
+    content: (
+      <div
+        key={"dummy-content-0"}
+        className="bg-[#F5F5F7] dark:bg-neutral-800 p-8 md:p-14 rounded-3xl mb-4"
+      >
+        <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto">
+          <span className="font-bold text-neutral-700 dark:text-neutral-200">
+            The future is here with the iPhone 15 Pro Max.
+          </span>{" "}
+          Experience the unmatched power of the iPhone 15 Pro Max with its
+          advanced A17 chip, a stunning 120Hz OLED display, and a professional
+          camera system built for innovation.
+        </p>
+        <Image
+          src="https://cellphonehub.co.uk/wp-content/uploads/2024/07/S24-Ultra.png"
+          alt="iPhone 15 Pro Max"
+          height="500"
+          width="500"
+          className="md:w-1/2 md:h-1/2 h-full w-full mx-auto object-contain"
+        />
+      </div>
+    ),
+  },
+  {
     category: "Smartphones",
     title: "Explore the latest iPhone 15 Pro Max.",
     src: "https://cdn.mockupnest.com/wp-content/uploads/edd/2024/02/01-Samsung-Galaxy-S24-Ultra-Mockup.jpg?class=large",

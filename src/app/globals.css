@@ -6,6 +6,30 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.p-2.absolute.-top-1.z-30.bg-white.text-center.-left-1.w-\[60px\].discount::before {
+  content: "";
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  background: transparent;
+  top: 3px;
+  right: -16px;
+  border-radius: 10px 0px 0px;
+  box-shadow: -10px 0px #fff;
+}
+
+.p-2.absolute.-top-1.z-30.bg-white.text-center.-left-1.w-\[60px\].discount::after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  background: transparent;
+  bottom: -15px;
+  left: 4px;
+  border-radius: 10px 0px 0px 0px;
+  box-shadow: -10px 0px #fff;
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;

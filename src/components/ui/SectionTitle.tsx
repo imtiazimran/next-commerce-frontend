@@ -12,7 +12,7 @@ const SectionTitle = ({
   to?: string | URL;
 }) => {
   return (
-    <div className="flex justify-between">
+    <div className="flex justify-between my-10">
       <div>
         <h1 className="text-4xl">{title ?? title}</h1>
         <p className="text-center text-[#666666]">{subtitle}</p>
