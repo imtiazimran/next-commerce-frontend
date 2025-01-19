@@ -3,16 +3,19 @@ import React from "react";
 import Container from "@/utils/Container";
 import RichText from "../RichText";
 import { LayoutGrid } from "../layout-grid";
+import Button from "../Button";
 
 const TopCategories = () => {
     return (
-        <Container>
+        <Container >
             <RichText title="Top Categories" subtitle="View our top Categories and find the best products for you." />
             <div className="h-screen w-full">
                 <LayoutGrid
                     cards={cards} />
             </div>
-
+            <div className="flex justify-center items-center">
+                <Button className="text-center" text="View All" to={"/allCategories"} />
+            </div>
 
 
         </Container>

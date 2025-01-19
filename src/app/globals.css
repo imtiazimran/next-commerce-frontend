@@ -6,6 +6,28 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+body::before {
+  --size: 50px;
+  --line-color: color-mix(in hsl, canvasText, transparent 70%);
+  content: "";
+  height: 100dvh;
+  width: 100vw;
+  position: fixed;
+  background: linear-gradient(
+        90deg,
+        var(--line-color) 1px,
+        transparent 1px var(--size)
+      )
+      50% 50% / var(--size) var(--size),
+    linear-gradient(var(--line-color) 1px, transparent var(--size)) 50% 50% /
+      var(--size) var(--size);
+  mask: linear-gradient(-20deg, transparent 50%, #fff);
+
+  transform-style: flat;
+  pointer-events: none;
+  z-index: -1;
+}
+
 .p-2.absolute.-top-1.z-30.bg-white.text-center.-left-1.w-\[60px\].discount::before {
   content: "";
   width: 16px;
