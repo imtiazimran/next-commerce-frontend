@@ -6,7 +6,7 @@ const CarouselHome = () => {
         <Card key={card.src} card={card} layout={true} index={index} />
     ));
     return (
-        <div>
+        <div className="w-full">
             <Carousel items={cards} />
         </div>
     );

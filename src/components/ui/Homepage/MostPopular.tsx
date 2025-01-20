@@ -4,7 +4,7 @@ import { DirectionAwareHover } from "../direction-aware-hover";
 
 const MostPopular = () => {
     return (
-        <Container>
+        <Container className="py-10">
             <SectionTitle
                 title="Most Popular Products"
                 subtitle="Explore our most populer products you'll find so many exiting products here"
@@ -99,7 +99,7 @@ const products = [
       reviews: 234,
     },
     {
-        id: 2,
+        id: 7,
         name: "Apple Watch Ultra 2",
         category: "Wearables",
         price: 899,
@@ -110,7 +110,7 @@ const products = [
         reviews: 98,
       },
       {
-        id: 3,
+        id: 8,
         name: "MacBook Pro 16-inch",
         category: "Laptops",
         price: 2799,

@@ -13,7 +13,7 @@ const TopCategories = () => {
                 <LayoutGrid
                     cards={cards} />
             </div>
-            <div className="flex justify-center items-center">
+            <div className="flex justify-center items-center pt-5">
                 <Button className="text-center" text="View All" to={"/allCategories"} />
             </div>
 
