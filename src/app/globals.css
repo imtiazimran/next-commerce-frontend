@@ -21,7 +21,7 @@ body {
 
 .hero::before {
   --size: 50px;
-  --line-color: color-mix(in hsl, canvasText, transparent 70%);
+  --line-color: color-mix(in hsl, #b3a9a9, transparent 70%);
   content: "";
   height: 100dvh;
   width: 100vw;

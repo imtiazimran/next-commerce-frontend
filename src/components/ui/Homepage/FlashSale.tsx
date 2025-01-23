@@ -4,7 +4,8 @@ import { DirectionAwareHover } from "../direction-aware-hover";
 
 const FlashSale = () => {
   return (
-    <Container className="py-10">
+    <div className=" bg-slate-100">
+    <Container className="py-10 ">
       <SectionTitle title="Flash Sale" button="View All" to={"/viewAll"} />
       <div
         className="grid grid-cols-2 md:grid-cols-4 gap-4"
@@ -21,6 +22,8 @@ const FlashSale = () => {
         }
       </div>
     </Container>
+
+    </div>
   );
 };
 
