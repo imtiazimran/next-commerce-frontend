@@ -16,19 +16,16 @@ const ProductPage = async ({ params }: { params: Params }) => {
   const product = await data.json()
 
 
-  const images = [
-    'https://swiperjs.com/demos/images/nature-1.jpg',
-    'https://swiperjs.com/demos/images/nature-2.jpg',
-    'https://swiperjs.com/demos/images/nature-3.jpg',
-    'https://swiperjs.com/demos/images/nature-4.jpg',
-  ];
+  console.log(product);
+
+  
 
   return (
     <Container>
       <Breadcumb routes={[{ name: "Product", path: "/Products" }, { name: product.name, path: "" }]} />
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <div>
-          <SwiperComponent images={images} />
+          <SwiperComponent images={product.images} />
         </div>
 
         <div>

@@ -25,7 +25,7 @@ const MostPopular = async () => {
             products?.map((product: Product) => {
               return (
                 <Link href={`/product/${product.id}`} key={product.id} >
-                  <DirectionAwareHover className="h-80" imageUrl={product.image[0]}>
+                  <DirectionAwareHover className="h-80" imageUrl={product?.images[0]}>
                     <p className="font-bold text-xl">{product.name ?? product.name}</p>
                     <p className="font-normal text-sm">${product.price ?? product.price}</p>
                   </DirectionAwareHover>
