@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import logo from "@/assests/nextCommerceLogo.png";
+import Link from "next/link";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -14,16 +15,15 @@ const Navbar = () => {
   return (
     <div className="flex justify-between items-center sticky top-0 z-50 bg-white shadow-sm px-5 py-3">
       {/* Logo Section */}
-      <div className="flex-shrink-0">
+      <Link href={'/'} className="flex-shrink-0">
         <Image src={logo} width={100} height={100} alt="logo" />
-      </div>
+      </Link>
 
       {/* Desktop Menu */}
       <div className="hidden md:flex">
         <ul className="flex gap-4 px-2">
-          <li className="hover:text-blue-500 cursor-pointer">Home</li>
           <li className="hover:text-blue-500 cursor-pointer">Categories</li>
-          <li className="hover:text-blue-500 cursor-pointer">Products</li>
+          <Link href={'/Product'} className="hover:text-blue-500 cursor-pointer">Products</Link>
           <li className="hover:text-blue-500 cursor-pointer">Flash Sale</li>
           <li className="hover:text-blue-500 cursor-pointer">About Us</li>
           <li className="hover:text-blue-500 cursor-pointer">Contact Us</li>
@@ -54,9 +54,8 @@ const Navbar = () => {
       {menuOpen && (
         <div className="absolute top-full left-0 w-full bg-white shadow-md md:hidden">
           <ul className="flex flex-col gap-4 px-5 py-3">
-            <li className="hover:text-blue-500 cursor-pointer">Home</li>
             <li className="hover:text-blue-500 cursor-pointer">Categories</li>
-            <li className="hover:text-blue-500 cursor-pointer">Products</li>
+            <Link href={"/Product"} className="hover:text-blue-500 cursor-pointer">Products</Link>
             <li className="hover:text-blue-500 cursor-pointer">Flash Sale</li>
             <li className="hover:text-blue-500 cursor-pointer">About Us</li>
             <li className="hover:text-blue-500 cursor-pointer">Contact Us</li>
