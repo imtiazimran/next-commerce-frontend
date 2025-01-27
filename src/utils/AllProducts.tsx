@@ -4,6 +4,7 @@ export interface Product {
     category: string
     price: number
     description: string
+    points: string[]
     images: string
     quantity: number
     rating: number
@@ -11,7 +12,7 @@ export interface Product {
   }
 
 const AllProducts = async () => {
-    const response = await fetch("http://localhost:5000/products")
+    const response = await fetch("http://localhost:5000/data")
     const products = await response.json()
     return products
 };

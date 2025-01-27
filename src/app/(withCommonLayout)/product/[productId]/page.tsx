@@ -1,5 +1,6 @@
 
 import SwiperComponent from '@/lib/SwiperJs';
+import AllProducts, { Product } from '@/utils/AllProducts';
 import Breadcumb from '@/utils/Breadcumb';
 import Container from '@/utils/Container';
 import { Star } from 'lucide-react';
@@ -10,19 +11,18 @@ interface Params {
   productId: string;
 }
 
-const ProductPage = async ({ params }: { params: Params }) => {
-  const { productId } = params;
-  const data = await fetch(`http://localhost:5000/products/${productId}`)
-  const product = await data.json()
+const ProductPage = async ({ params }: { params: Promise<Params> }) => {
+  const { productId } = await params;
+  const data = await AllProducts()
+  const product = data.find((product: Product) => product.id === Number(productId));
 
 
-  console.log(product);
+console.log(product);
 
-  
 
   return (
-    <Container>
-      <Breadcumb routes={[{ name: "Product", path: "/Products" }, { name: product.name, path: "" }]} />
+    <Container className="py-10">
+      <Breadcumb routes={[{ name: "Product", path: "/products" }, { name: product.name, path: "" }]} />
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <div>
           <SwiperComponent images={product.images} />
@@ -44,7 +44,15 @@ const ProductPage = async ({ params }: { params: Params }) => {
 
           <div className="mt-4">
             <p className="text-lg font-normal text-[#414141]">{product.description}</p>
-            </div>
+            {
+              product.points.map((point: string, index: number) => (
+                <div key={index} className="flex items-center gap-2 mt-2">
+                  <div className="h-4 w-4 bg-green-500 rounded-full"></div>
+                  <p className="text-lg font-normal text-[#414141]">{point}</p>
+                </div>
+              ))
+            }
+          </div>
         </div>
       </div>
     </Container>

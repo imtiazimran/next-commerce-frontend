@@ -69,6 +69,7 @@ const SwiperComponent = ({
                                     width={100}
                                     height={100}
                                     src={image}
+                                    unoptimized={true}
                                     alt="Thumbnail"
                                     className="w-full h-full object-cover rounded-lg cursor-pointer"
                                 />

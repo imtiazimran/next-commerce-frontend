@@ -1,92 +1,116 @@
 {
-   "products": [
-    {
-        "id": 1,
-        "name": "iPhone 15 Pro Max",
-        "category": "Smartphones",
-        "price": 1499,
-        "description": "The latest iPhone with an A17 chip and a stunning 120Hz OLED display.",
-        "images":[ "https://i.ibb.co.com/M54mbwr/blue-modern-smartphone-instagram-post-1.png"],
-        "quantity": 20,
-        "rating": 4.8,
-        "reviews": 125
-    },
-    {
-        "id": 2,
-        "name": "Apple Watch Ultra 2",
-        "category": "Wearables",
-        "price": 899,
-        "description": "A rugged and feature-rich smartwatch for outdoor adventures.",
-        "images": ["https://img.freepik.com/free-photo/rendering-smart-home-device_23-2151039303.jpg"],
-        "quantity": 35,
-        "rating": 4.7,
-        "reviews": 98
-    },
-    {
-        "id": 3,
-        "name": "MacBook Pro 16-inch",
-        "category": "Laptops",
-        "price": 2799,
-        "description": "High-performance laptop with M3 Pro chip for creators and professionals.",
-        "images": ["https://img.freepik.com/free-photo/laptop-mobile-phone-dark-background-3d-rendering_1142-38685.jpg"],
-        "quantity": 15,
-        "rating": 4.9,
-        "reviews": 154
-    },
-    {
-        "id": 4,
-        "name": "Sony WH-1000XM5 Headphones",
-        "category": "Audio",
-        "price": 399,
-        "description": "Premium noise-canceling headphones for immersive sound experiences.",
-        "images": ["https://img.freepik.com/free-photo/still-life-wireless-cyberpunk-headphones_23-2151072186.jpg"],
-        "quantity": 50,
-        "rating": 4.6,
-        "reviews": 112
-    },
-    {
-        "id": 5,
-        "name": "Logitech MX Master 3S Mouse",
-        "category": "Accessories",
-        "price": 99,
-        "description": "Ergonomic and precise wireless mouse for productivity.",
-        "images":[ "https://images.pexels.com/photos/3981749/pexels-photo-3981749.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"],
-        "quantity": 60,
-        "rating": 4.5,
-        "reviews": 87
-    },
-    {
-        "id": 6,
-        "name": "PlayStation 5 Console",
-        "category": "Gaming",
-        "price": 499,
-        "description": "Next-generation gaming console with stunning 4K graphics and lightning-fast load times.",
-        "images": ["https://images.pexels.com/photos/7862350/pexels-photo-7862350.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"],
-        "quantity": 10,
-        "rating": 4.9,
-        "reviews": 234
-    },
-    {
-        "id": 7,
-        "name": "Apple Watch Ultra 2",
-        "category": "Wearables",
-        "price": 899,
-        "description": "A rugged and feature-rich smartwatch for outdoor adventures.",
-        "images": ["https://img.freepik.com/free-photo/rendering-smart-home-device_23-2151039303.jpg"],
-        "quantity": 35,
-        "rating": 4.7,
-        "reviews": 98
-    },
-    {
-        "id": 8,
-        "name": "MacBook Pro 16-inch",
-        "category": "Laptops",
-        "price": 2799,
-        "description": "High-performance laptop with M3 Pro chip for creators and professionals.",
-        "images": ["https://img.freepik.com/free-photo/laptop-mobile-phone-dark-background-3d-rendering_1142-38685.jpg"],
-        "quantity": 15,
-        "rating": 4.9,
-        "reviews": 154
-    }
-    ]
-}
+    "data": [
+     {
+         "id": 1,
+         "name": "iPhone 15 Pro Max",
+         "category": "Smartphones",
+         "price": 1499,
+         "description": "The iPhone 15 Pro Max sets a new standard for smartphones with its A17 Bionic chip, delivering industry-leading performance and efficiency. It features a stunning 6.7-inch 120Hz OLED display for crystal-clear visuals and buttery-smooth scrolling. The advanced triple-camera system offers unparalleled photo and video quality, even in low light. Built with aerospace-grade titanium, this phone is not only sleek but also incredibly durable. With improved battery life and 5G support, it’s perfect for power users who demand the best.",
+         "points": [
+           "A17 Bionic chip for unmatched performance",
+           "6.7-inch 120Hz OLED display",
+           "Triple-camera system with enhanced low-light capabilities",
+           "Aerospace-grade titanium build for durability",
+           "Improved battery life and 5G support"
+         ],
+         "images": [
+            "https://mcsolution.com.bd/wp-content/uploads/2024/06/Apple-iPhone-16-and-16-plus-black-price-in-Bangladesh-MC-Solution-BD.webp",
+            "https://i.ibb.co.com/M54mbwr/blue-modern-smartphone-instagram-post-1.png"
+        ],
+         "quantity": 20,
+         "rating": 4.8,
+         "reviews": 125
+     },
+     {
+         "id": 2,
+         "name": "Apple Watch Ultra 2",
+         "category": "Wearables",
+         "price": 899,
+         "description": "Designed for adventurers, the Apple Watch Ultra 2 combines rugged durability with advanced features. With its titanium case and sapphire crystal display, it can withstand extreme conditions while maintaining a sleek appearance. The Ultra 2 offers advanced health monitoring, including heart rate, blood oxygen levels, and sleep tracking. Its dual-frequency GPS ensures accurate navigation, even in remote areas. The watch is water-resistant up to 100 meters, making it ideal for swimmers and divers. Enjoy up to 36 hours of battery life on a single charge.",
+         "points": [
+           "Titanium case and sapphire crystal display for durability",
+           "Advanced health monitoring: heart rate, blood oxygen, and sleep tracking",
+           "Dual-frequency GPS for precise navigation",
+           "Water-resistant up to 100 meters",
+           "36-hour battery life on a single charge"
+         ],
+         "images": ["https://img.freepik.com/free-photo/rendering-smart-home-device_23-2151039303.jpg"],
+         "quantity": 35,
+         "rating": 4.7,
+         "reviews": 98
+     },
+     {
+         "id": 3,
+         "name": "MacBook Pro 16-inch",
+         "category": "Laptops",
+         "price": 2799,
+         "description": "The MacBook Pro 16-inch is a powerhouse laptop designed for professionals and creatives. Powered by the M3 Pro chip, it delivers blazing-fast performance for demanding tasks like video editing, 3D rendering, and software development. The stunning Liquid Retina XDR display provides vibrant colors and extreme contrast for an unparalleled visual experience. With up to 64GB of RAM and 8TB of storage, it’s built to handle the most resource-intensive workflows. Its improved thermal design ensures sustained performance under heavy workloads.",
+         "points": [
+           "M3 Pro chip for lightning-fast performance",
+           "Liquid Retina XDR display for vibrant colors and high contrast",
+           "Up to 64GB RAM and 8TB storage for intensive workflows",
+           "Advanced thermal design for sustained performance",
+           "Ideal for video editing, 3D rendering, and software development"
+         ],
+         "images": ["https://img.freepik.com/free-photo/laptop-mobile-phone-dark-background-3d-rendering_1142-38685.jpg"],
+         "quantity": 15,
+         "rating": 4.9,
+         "reviews": 154
+     },
+     {
+         "id": 4,
+         "name": "Sony WH-1000XM5 Headphones",
+         "category": "Audio",
+         "price": 399,
+         "description": "The Sony WH-1000XM5 headphones offer the ultimate noise-canceling experience. Designed for audiophiles, these headphones deliver rich, immersive sound with exceptional clarity. The adaptive noise-canceling technology adjusts to your environment for uninterrupted listening. With a lightweight design and plush ear cushions, they provide long-lasting comfort. Enjoy up to 30 hours of battery life and quick charging that gives you 5 hours of playback in just 10 minutes.",
+         "points": [
+           "Adaptive noise-canceling technology for a seamless experience",
+           "Rich, immersive sound with exceptional clarity",
+           "Lightweight design with plush ear cushions for comfort",
+           "30-hour battery life with quick charging (5 hours in 10 minutes)",
+           "Ideal for audiophiles and immersive listening"
+         ],
+         "images": ["https://img.freepik.com/free-photo/still-life-wireless-cyberpunk-headphones_23-2151072186.jpg"],
+         "quantity": 50,
+         "rating": 4.6,
+         "reviews": 112
+     },
+     {
+         "id": 5,
+         "name": "Logitech MX Master 3S Mouse",
+         "category": "Accessories",
+         "price": 99,
+         "description": "The Logitech MX Master 3S is an ergonomic wireless mouse built for productivity. Its advanced precision sensor works on virtually any surface, including glass. With customizable buttons and a hyper-fast scroll wheel, you can navigate through tasks effortlessly. The ergonomic design reduces strain on your hand during extended use. The mouse offers cross-device control, allowing you to work seamlessly across multiple devices. With USB-C fast charging, enjoy weeks of use on a single charge.",
+         "points": [
+           "Ergonomic design reduces hand strain",
+           "Advanced precision sensor works on almost any surface",
+           "Customizable buttons and hyper-fast scroll wheel",
+           "Cross-device control for seamless multitasking",
+           "USB-C fast charging with weeks of battery life"
+         ],
+         "images": ["https://imagess.pexels.com/photos/3981749/pexels-photo-3981749.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"],
+         "quantity": 60,
+         "rating": 4.5,
+         "reviews": 87
+     },
+     {
+         "id": 6,
+         "name": "PlayStation 5 Console",
+         "category": "Gaming",
+         "price": 499,
+         "description": "The PlayStation 5 takes gaming to the next level with its ultra-fast SSD and ray tracing technology. Experience stunning 4K graphics and incredibly smooth gameplay at up to 120fps. Its new DualSense controller introduces haptic feedback and adaptive triggers for a more immersive gaming experience. The console’s sleek design fits seamlessly into any setup. With a growing library of exclusive games, the PS5 is a must-have for any gaming enthusiast.",
+         "points": [
+           "Ultra-fast SSD for minimal load times",
+           "4K graphics and gameplay up to 120fps",
+           "DualSense controller with haptic feedback and adaptive triggers",
+           "Sleek design fits into any gaming setup",
+           "Exclusive library of must-play games"
+         ],
+         "images": ["https://imagess.pexels.com/photos/7862350/pexels-photo-7862350.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"],
+         "quantity": 10,
+         "rating": 4.9,
+         "reviews": 234
+     }
+   ]
+ }
+ 
