@@ -1,8 +1,9 @@
 import Container from "@/utils/Container";
 import SectionTitle from "../SectionTitle";
 import { DirectionAwareHover } from "../direction-aware-hover";
-import AllProducts, { Product } from "@/utils/AllProducts";
+import AllProducts from "@/utils/AllProducts";
 import Link from "next/link";
+import { Product } from "@/types";
 
 const FlashSale = async () => {
   const products = await AllProducts()

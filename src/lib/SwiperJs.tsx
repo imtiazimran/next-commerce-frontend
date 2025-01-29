@@ -22,9 +22,9 @@ const SwiperComponent = ({
     const [thumbsSwiper, setThumbsSwiper] = useState<any | null>(null); // Moved state here
 
     return (
-        <div className="flex max-w-7xl mx-auto  gap-5">
+        <div className="flex flex-col-reverse md:flex-row max-w-7xl mx-auto  gap-5">
             {/* Thumbnail Swiper on the left */}
-            <div className="w-[10%]">
+            <div className="w-[12%]">
                 <Swiper
                     onSwiper={setThumbsSwiper}
                     direction="vertical" // Makes the swiper vertical
@@ -34,7 +34,7 @@ const SwiperComponent = ({
                     freeMode={true}
                     watchSlidesProgress={true}
                     modules={[FreeMode, Navigation, Thumbs]}
-                    className="h-[500px]"
+                    className="md:h-[500px] h-[80px] rounded-lg "
                 >
                     {
                         images?.map((image, index) => (
@@ -53,7 +53,7 @@ const SwiperComponent = ({
             </div>
 
             {/* Main Swiper for large images */}
-            <div className="w-4/5">
+            <div className="w-full md:w-4/5">
                 <Swiper
                     loop={true}
                     spaceBetween={10}
