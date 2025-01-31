@@ -48,7 +48,7 @@ const SwiperComponent = ({
                                 />
                             </SwiperSlide>
                         ))
-                    }
+                    } 
                 </Swiper>
             </div>
 

@@ -5,7 +5,8 @@
       "name": "iPhone 15 Pro Max",
       "category": "Smartphones",
       "price": 1499,
-      "description": "The iPhone 15 Pro Max sets a new standard for smartphones with its A17 Bionic chip, delivering industry-leading performance and efficiency. It features a stunning 6.7-inch 120Hz OLED display for crystal-clear visuals and buttery-smooth scrolling. The advanced triple-camera system offers unparalleled photo and video quality, even in low light. Built with aerospace-grade titanium, this phone is not only sleek but also incredibly durable. With improved battery life and 5G support, it’s perfect for power users who demand the best.",
+      "short_description": "The iPhone 15 Pro Max sets a new standard for smartphones with its A17 Bionic chip, delivering industry-leading performance and efficiency. It features a stunning 6.7-inch 120Hz OLED display for crystal-clear visuals and buttery-smooth scrolling.",
+      "description": "The iPhone 15 Pro Max redefines premium smartphones with its cutting-edge technology and elegant design. Featuring Apple's revolutionary A17 Bionic chip, this device effortlessly handles multitasking, gaming, and AI-driven tasks while maintaining exceptional energy efficiency. The expansive 6.7-inch OLED display boasts a silky 120Hz refresh rate, making every interaction fluid and responsive. Photographers and videographers will adore the pro-grade triple-camera system, which introduces groundbreaking low-light performance and cinematic stabilization. Crafted from aerospace-grade titanium, it combines lightweight durability with a sophisticated aesthetic. Enhanced 5G connectivity and all-day battery life ensure you stay connected and productive, while the intuitive iOS ecosystem provides a seamless user experience. Perfect for tech enthusiasts and professionals alike.",
       "points": [
         "A17 Bionic chip for unmatched performance",
         "6.7-inch 120Hz OLED display",
@@ -31,7 +32,8 @@
       "name": "Apple Watch Ultra 2",
       "category": "Wearables",
       "price": 899,
-      "description": "Designed for adventurers, the Apple Watch Ultra 2 combines rugged durability with advanced features. With its titanium case and sapphire crystal display, it can withstand extreme conditions while maintaining a sleek appearance. The Ultra 2 offers advanced health monitoring, including heart rate, blood oxygen levels, and sleep tracking. Its dual-frequency GPS ensures accurate navigation, even in remote areas. The watch is water-resistant up to 100 meters, making it ideal for swimmers and divers. Enjoy up to 36 hours of battery life on a single charge.",
+      "short_description": "Designed for adventurers, the Apple Watch Ultra 2 combines rugged durability with advanced features. With its titanium case and sapphire crystal display, it can withstand extreme conditions while maintaining a sleek appearance. ",
+      "description": "The Apple Watch Ultra 2 is the ultimate companion for explorers and fitness fanatics. Its rugged titanium chassis and scratch-resistant sapphire crystal face endure harsh environments, from mountain trails to ocean depths. Advanced health sensors provide real-time insights into your heart rate, blood oxygen saturation, and sleep patterns, empowering you to optimize your wellness. The dual-frequency GPS delivers pinpoint accuracy for backcountry navigation, while the 100-meter water resistance makes it ideal for snorkeling and deep-water workouts. With an extended 36-hour battery life, it keeps up with your longest adventures. Whether you're tracking a marathon or diving into open waters, the Ultra 2 combines resilience with smart functionality.",
       "points": [
         "Titanium case and sapphire crystal display for durability",
         "Advanced health monitoring: heart rate, blood oxygen, and sleep tracking",
@@ -51,7 +53,8 @@
       "name": "MacBook Pro 16-inch",
       "category": "Laptops",
       "price": 2799,
-      "description": "The MacBook Pro 16-inch is a powerhouse laptop designed for professionals and creatives. Powered by the M3 Pro chip, it delivers blazing-fast performance for demanding tasks like video editing, 3D rendering, and software development. The stunning Liquid Retina XDR display provides vibrant colors and extreme contrast for an unparalleled visual experience. With up to 64GB of RAM and 8TB of storage, it’s built to handle the most resource-intensive workflows. Its improved thermal design ensures sustained performance under heavy workloads.",
+      "short_description": "The MacBook Pro 16-inch is a powerhouse laptop designed for professionals and creatives. Powered by the M3 Pro chip, it delivers blazing-fast performance for demanding tasks like video editing, 3D rendering, and software development.",
+      "description": "Engineered for creative professionals, the MacBook Pro 16-inch is a marvel of computational power. The M3 Pro chip delivers desktop-class performance, enabling lightning-fast 8K video exports and complex 3D simulations. Its Liquid Retina XDR display brings HDR content to life with breathtaking brightness and true-to-life colors, perfect for color-critical work in photography and film. Configured with up to 64GB of unified memory and 8TB of SSD storage, it handles massive datasets and multitasking with ease. The innovative thermal architecture maintains peak performance during prolonged workloads, while the immersive six-speaker system and studio-quality mics elevate content creation. A true workhorse for developers, editors, and designers.",
       "points": [
         "M3 Pro chip for lightning-fast performance",
         "Liquid Retina XDR display for vibrant colors and high contrast",
@@ -71,7 +74,8 @@
       "name": "Sony WH-1000XM5 Headphones",
       "category": "Audio",
       "price": 399,
-      "description": "The Sony WH-1000XM5 headphones offer the ultimate noise-canceling experience. Designed for audiophiles, these headphones deliver rich, immersive sound with exceptional clarity. The adaptive noise-canceling technology adjusts to your environment for uninterrupted listening. With a lightweight design and plush ear cushions, they provide long-lasting comfort. Enjoy up to 30 hours of battery life and quick charging that gives you 5 hours of playback in just 10 minutes.",
+      "short_description": "The Sony WH-1000XM5 headphones offer the ultimate noise-canceling experience. Designed for audiophiles, these headphones deliver rich, immersive sound with exceptional clarity. The adaptive noise-canceling technology adjusts to your environment for uninterrupted listening.",
+      "description": "Immerse yourself in pristine audio with the Sony WH-1000XM5, the gold standard for noise-canceling headphones. Cutting-edge processors analyze ambient noise 20,000 times per second, creating a silent sanctuary for your music. High-resolution audio drivers reproduce every note with studio-grade accuracy, while DSEE Extreme upscaling revitalizes compressed tracks. The featherlight design and pressure-relieving earpads ensure comfort during long flights or work sessions. Smart features like speak-to-chat automatically pause music during conversations, and multipoint pairing lets you switch between devices effortlessly. With rapid charging and marathon battery life, these headphones are a traveler’s dream and an audiophile’s delight.",
       "points": [
         "Adaptive noise-canceling technology for a seamless experience",
         "Rich, immersive sound with exceptional clarity",
@@ -91,7 +95,8 @@
       "name": "Logitech MX Master 3S Mouse",
       "category": "Accessories",
       "price": 99,
-      "description": "The Logitech MX Master 3S is an ergonomic wireless mouse built for productivity. Its advanced precision sensor works on virtually any surface, including glass. With customizable buttons and a hyper-fast scroll wheel, you can navigate through tasks effortlessly. The ergonomic design reduces strain on your hand during extended use. The mouse offers cross-device control, allowing you to work seamlessly across multiple devices. With USB-C fast charging, enjoy weeks of use on a single charge.",
+      "short_description": "The Logitech MX Master 3S is an ergonomic wireless mouse built for productivity. Its advanced precision sensor works on virtually any surface, including glass. With customizable buttons and a hyper-fast scroll wheel, you can navigate through tasks effortlessly.",
+      "description": "Redefine productivity with the Logitech MX Master 3S, engineered for precision and comfort. Its contoured shape supports natural hand positioning, reducing fatigue during marathon work sessions. The 8K DPI sensor tracks flawlessly on glass, wood, or uneven surfaces, while the MagSpeed scroll wheel zips through thousand-line spreadsheets in seconds. Seven customizable buttons and gesture controls put shortcuts at your fingertips, and Flow technology lets you copy-paste across three devices seamlessly. The USB-C charger delivers a full day’s power in just one minute, making it ideal for mobile professionals. A must-have for coders, editors, and multitaskers who demand efficiency.",
       "points": [
         "Ergonomic design reduces hand strain",
         "Advanced precision sensor works on almost any surface",
@@ -111,7 +116,8 @@
       "name": "PlayStation 5 Console",
       "category": "Gaming",
       "price": 499,
-      "description": "The PlayStation 5 takes gaming to the next level with its ultra-fast SSD and ray tracing technology. Experience stunning 4K graphics and incredibly smooth gameplay at up to 120fps. Its new DualSense controller introduces haptic feedback and adaptive triggers for a more immersive gaming experience. The console’s sleek design fits seamlessly into any setup. With a growing library of exclusive games, the PS5 is a must-have for any gaming enthusiast.",
+      "short_description": "The PlayStation 5 takes gaming to the next level with its ultra-fast SSD and ray tracing technology. Experience stunning 4K graphics and incredibly smooth gameplay at up to 120fps. Its new DualSense controller introduces haptic feedback and adaptive triggers for a more immersive gaming experience.",
+     "description": "Step into the future of gaming with the PlayStation 5. Its custom SSD slashes load times to near-instantaneous speeds, while ray tracing and 4K/120Hz output create hyper-realistic worlds. The DualSense controller revolutionizes immersion with tactile haptic feedback and adaptive triggers that simulate bowstrings, triggers, and terrain. Tempest 3D AudioTech envelops you in directional soundscapes, and the sleek two-tone design adds a touch of elegance to your entertainment center. Dive into exclusive titles like *Spider-Man 2* and *Horizon Forbidden West*, or enjoy backward compatibility with PS4 classics. Whether you’re a competitive gamer or a story-driven adventurer, the PS5 delivers next-gen thrills.",
       "points": [
         "Ultra-fast SSD for minimal load times",
         "4K graphics and gameplay up to 120fps",
@@ -125,32 +131,6 @@
       "quantity": 10,
       "rating": 4.9,
       "reviews": 234
-    },
-    {
-      "id": 7,
-      "name": "Faculty of C#",
-      "category": "Mobile",
-      "price": "50",
-      "shortDescription": "short description",
-      "description": "long description",
-      "points": "point1, point2, point3.",
-      "images": "https://intelcorp.scene7.com/is/image/intelcorp/mini-pc-product-image-transparent-background:1920-1080?wid=576&hei=324&fmt=webp-alpha",
-      "quantity": "1",
-      "rating": "4.8",
-      "reviews": "42"
-    },
-    {
-      "id": 8,
-      "name": "Faculty of C#",
-      "category": "Mobile",
-      "price": "50",
-      "shortDescription": "short description",
-      "description": "long description",
-      "points": "point1, point2, point3.",
-      "images": "https://intelcorp.scene7.com/is/image/intelcorp/mini-pc-product-image-transparent-background:1920-1080?wid=576&hei=324&fmt=webp-alpha",
-      "quantity": "1",
-      "rating": "4.8",
-      "reviews": "42"
     }
   ]
 }

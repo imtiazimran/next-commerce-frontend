@@ -23,7 +23,7 @@ const Navbar = () => {
       <div className="hidden md:flex">
         <ul className="flex gap-4 px-2">
           <li className="hover:text-blue-500 cursor-pointer">Categories</li>
-          <Link href={'/Product'} className="hover:text-blue-500 cursor-pointer">Products</Link>
+          <Link href={'/products'} className="hover:text-blue-500 cursor-pointer">Products</Link>
           <li className="hover:text-blue-500 cursor-pointer">Flash Sale</li>
           <li className="hover:text-blue-500 cursor-pointer">About Us</li>
           <li className="hover:text-blue-500 cursor-pointer">Contact Us</li>
