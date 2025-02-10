@@ -63,7 +63,37 @@ module.exports = {
   	}
   },
   // eslint-disable-next-line @typescript-eslint/no-require-imports
-  plugins: [addVariablesForColors, require("tailwindcss-animate")],
+  plugins: [addVariablesForColors, require("tailwindcss-animate"), 
+	function ({ addUtilities }) {
+		const newUtility = {
+			".scrollbar-thin": {
+				scrollbarWidth: "thin",
+				scrollbarColor: "rgb(31 29 29) white"
+			},
+			"scrollbar-webkit": {
+				"&::-webkit-scrollbar": {
+					width: "12px",
+					height: "12px"
+				},
+				"&::-webkit-scrollbar-track": {
+					background: "white",
+					backgroundColor: "rgb(31 29 29)",
+					borderRadius: "6px",
+					border: "3px solid white"
+				},
+				"&::-webkit-scrollbar-thumb": {
+					background: "white",
+					backgroundColor: "rgb(31 29 29)",
+					borderRadius: "6px",
+					border: "3px solid white"
+				}
+			}
+		}
+		addUtilities(newUtility, {
+			variants: ["responsive", "hover"]
+		})
+	}
+  ],
 };
 
 // This plugin adds each Tailwind color as a global CSS variable, e.g. var(--gray-200).
